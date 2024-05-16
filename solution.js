@@ -28,3 +28,12 @@ let rectanglePerimeter =(length, width)=>{
 }
 
 rectanglePerimeter(2,5);
+
+// 4. Return something to me
+
+let returnSomethingToMe =(string)=>{
+
+    return (`Something ${string}`)
+}
+
+returnSomethingToMe('beautiful is being made');
