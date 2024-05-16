@@ -135,3 +135,27 @@ let footballPoints=(gamesWon, gamesDrawn, gamesLost)=>{
 }
 
 footballPoints(5,0,2);
+
+// 12. Even numbers
+
+let isEven =(num)=>{
+
+    let evenNumberArray=[];
+    let oddNumberArray=[];
+
+    for (let i=num; i<=101; i++){
+        switch (i%2==0) {
+            case true:
+                evenNumberArray.push(i);
+                break;
+            case false:
+                oddNumberArray.push(i);
+                break;
+            default:
+                break;
+        }
+    }
+    console.log(evenNumberArray); 
+}
+
+isEven(0);
