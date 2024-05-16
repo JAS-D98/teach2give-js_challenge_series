@@ -106,3 +106,18 @@ let greater=(firstNumber, secondNumber, thirdNumber)=>{
 }
 
 greater(2, 35, 9);
+
+// 10. let Less among the three
+
+let least=(firstNumber, secondNumber, thirdNumber)=>{
+
+    if (firstNumber <= secondNumber && firstNumber <=thirdNumber) {
+        return (firstNumber);
+    }else if(secondNumber <=firstNumber && secondNumber <=thirdNumber){
+        return (secondNumber);
+    }else{
+        return (thirdNumber);
+    }
+}
+
+least(2, 35, 9);
