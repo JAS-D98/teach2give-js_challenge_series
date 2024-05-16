@@ -80,3 +80,14 @@ let isSumMoreThan100=(firstNumber, secondNumber)=>{
 }
 
 isSumMoreThan100(72,38);
+
+// 8. Convert minutes to second
+
+let convertToSeconds=(minutes)=>{
+
+    let Seconds=minutes*60;
+
+    return (`${Seconds} seconds`);
+}
+
+convertToSeconds(5);
