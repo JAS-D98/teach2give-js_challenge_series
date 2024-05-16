@@ -37,3 +37,18 @@ let returnSomethingToMe =(string)=>{
 }
 
 returnSomethingToMe('beautiful is being made');
+
+// 5. Bob's BMI vs Jane's BMI
+
+let greaterBMI =(BobBMI, JaneBMI)=>{
+
+    if (BobBMI > JaneBMI) {
+        return ("Bob");
+    }else if (BobBMI<JaneBMI){
+        return ("Jane");
+    }else{
+        return ("Equal");
+    }
+}
+
+greaterBMI(30,25);
