@@ -52,3 +52,16 @@ let greaterBMI =(BobBMI, JaneBMI)=>{
 }
 
 greaterBMI(30,25);
+
+// 6. Basketball points
+
+let basketBallPoints=(TwoPointers,ThreePointers)=>{
+
+    let totalTwoPointerPoints= TwoPointers*2;
+    let totalThreePointerPoints= ThreePointers*3;
+    let totalPoints=totalTwoPointerPoints+totalThreePointerPoints;
+
+    return (totalPoints);
+}
+
+basketBallPoints(7,5);
