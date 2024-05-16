@@ -65,3 +65,18 @@ let basketBallPoints=(TwoPointers,ThreePointers)=>{
 }
 
 basketBallPoints(7,5);
+
+// 7. Less than 100
+
+let isSumMoreThan100=(firstNumber, secondNumber)=>{
+    sum=firstNumber+secondNumber;
+    if (sum>100) {
+        return true;
+    }else if(sum == 100){
+        return (`Equal`);
+    }else{
+        return false;
+    }
+}
+
+isSumMoreThan100(72,38);
