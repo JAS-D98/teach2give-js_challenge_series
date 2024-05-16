@@ -91,3 +91,18 @@ let convertToSeconds=(minutes)=>{
 }
 
 convertToSeconds(5);
+
+// 9. Greater among the three
+
+let greater=(firstNumber, secondNumber, thirdNumber)=>{
+
+    if (firstNumber>= secondNumber && firstNumber>=thirdNumber) {
+        return (firstNumber);
+    }else if(secondNumber>=firstNumber && secondNumber>=thirdNumber){
+        return (secondNumber);
+    }else{
+        return (thirdNumber);
+    }
+}
+
+greater(2, 35, 9);
