@@ -17,4 +17,14 @@ let nextNumber =(number)=>{
     
     }
     
-    nextNumber(-2);
+nextNumber(-2);
+
+// 3. Find perimeter of a rectangle
+
+let rectanglePerimeter =(length, width)=>{
+
+    let perimeter=(length+width)*2;
+    return perimeter;
+}
+
+rectanglePerimeter(2,5);
