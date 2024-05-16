@@ -121,3 +121,17 @@ let least=(firstNumber, secondNumber, thirdNumber)=>{
 }
 
 least(2, 35, 9);
+
+// 11.  Football points
+
+let footballPoints=(gamesWon, gamesDrawn, gamesLost)=>{
+
+    let WonPoints=gamesWon*3;
+    let DrawnPoints=gamesDrawn*1;
+    let LossPoints=gamesLost*0;
+
+    let totalPoints=WonPoints+DrawnPoints+LossPoints;
+    return totalPoints;
+}
+
+footballPoints(5,0,2);
