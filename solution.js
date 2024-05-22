@@ -144,15 +144,10 @@ let isEven =(num)=>{
     let oddNumberArray=[];
 
     for (let i=num; i<=101; i++){
-        switch (i%2==0) {
-            case true:
-                evenNumberArray.push(i);
-                break;
-            case false:
-                oddNumberArray.push(i);
-                break;
-            default:
-                break;
+        if (i%2==0) {
+            evenNumberArray.push(i);
+        }else{
+            oddNumberArray.push(i);
         }
     }
     console.log(evenNumberArray); 
