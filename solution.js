@@ -136,7 +136,7 @@ let footballPoints=(gamesWon, gamesDrawn, gamesLost)=>{
 
 footballPoints(5,0,2);
 
-// 12. Even numbers
+// 12. Even numbers question
 
 let isEven =(num)=>{
 
